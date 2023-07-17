@@ -1,3 +1,7 @@
+> **Note**
+>
+> The current site is live [here](jodadoj-spotify-clone-demo.netlify.app).
+
 # Creating a Spotify clone #
 
 The source of this project comes from [Code with Antonio's](https://www.youtube.com/watch?v=2aeMRB8LL4o) incredibly helpful guide. This is mostly a written step-by-step to both record the process in another form and act as a revision tool.
@@ -32,7 +36,7 @@ The original guide suggests using `npm` but I personally prefer `yarn` and so wi
 
 We use the command `yarn create next-app` with the argument `spotify-clone-next` and setting up with Typescript,ESLint,Tailwind and App Router enabled.
 
-![setup options](resources\readme\001.png)
+![setup options](resources/readme/001.png)
 
 ## Default Project
 
@@ -54,7 +58,7 @@ This can be done by going to the `package.json` file under the `scripts` key and
 
 In it's current state, the project is still the default Next.js project. 
 
-![default](resources\readme\003.png)
+![default](resources/readme/003.png)
 
 To start, we delete everything in `app/page.tsx`'s return statement and place a single empty `<div>` in it's place. We also remove the import reference to the image file at the top.
 
@@ -280,7 +284,7 @@ return(
 
 This creates a a sidebar which is regularly hidden from mobile view (which can be checked with your inspect element) and takes two `Box` components then displays them like so:
 
-![box](resources\readme\007.png)
+![box](resources/readme/007.png)
 
 > **Note**
 >
@@ -442,7 +446,7 @@ And add this to the Song Library `Box` in `Sidebar.tsx:
 ```
 We should have a sidebar that looks like this:
 
-![sidebar](resources\readme\008.png)
+![sidebar](resources/readme/008.png)
 
 ## Adding a Header 
 
@@ -566,7 +570,7 @@ We then activate mobile view in inspect element on our local server to see the n
 
 To give this result:
 
-![mobile](resources\readme\009.png)
+![mobile](resources/readme/009.png)
 
 ## Adding Our Own Custom Button
 
@@ -645,7 +649,7 @@ We then add the `Button` in our `Header.tsx` inline with the previous divs yet a
 
 Which looks like this:
 
-![sign up](resources\readme\010.png)
+![sign up](resources/readme/010.png)
 
 We then return to `Header.tsx` and implement our `Button`. 
 
@@ -840,4 +844,4 @@ export default function Home() {
 Leaving us with this:
 
 
-![header](resources\readme\011.png)
+![header](resources/readme/011.png)
