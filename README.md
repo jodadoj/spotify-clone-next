@@ -373,7 +373,7 @@ We then edit the Navigation box to include out `SidebarItem` components, mapping
 
 Now we create a component called `library.tsx` and a corresponding `LibraryProps.tsx` in the usual folders. The interface will be empty for now.
 
-`Library.tsx` will be a clien tcomponent and so we add `"use client"` to the top of the file before we import our interface. We add a placeholder `onClick` before the return statement for when we're adding later functionality. The rest is stylising besides adding in a `TbPlaylist` icon and `AiOutlinePlus` icon with similar properties to the ones in the top of the sidebar. These can be seen below:
+`Library.tsx` will be a client component and so we add `"use client"` to the top of the file before we import our interface. We add a placeholder `onClick` before the return statement for when we're adding later functionality. The rest is stylising besides adding in a `TbPlaylist` icon and `AiOutlinePlus` icon with similar properties to the ones in the top of the sidebar. These can be seen below:
 
 ```ts
 "use client"
@@ -701,7 +701,7 @@ export default interface ListItemProps {
 }
 ```
 
-We pass those props down to our `ListItem` and define an `onClick` and `router` hook for future use. We define a generic `button` which uses the `onClick` import the `Image` component from `next/navigation` and pass the `name` attribute down in a p tag. Finally we import `FaPlay` from `react-icons/fa` and use it to create an active button that scaled on hover.
+We pass those props down to our `ListItem` and define an `onClick` and `router` hook for future use - this means we begin the file with `"use client"` yet again. We define a generic `button` which uses the `onClick` import the `Image` component from `next/navigation` and pass the `name` attribute down in a p tag. Finally we import `FaPlay` from `react-icons/fa` and use it to create an active button that scaled on hover.
 
 ```ts
 "use client";
