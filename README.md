@@ -135,6 +135,12 @@ We then return to the div text and edit the element. Add a `className=text-green
 
 At this point, our text should be green and resemble the Spotify layout slightly more.
 
+To add to this see can delete `favicon.ico` in the `app` folder and replace it with an `icon.png` file where we save this image:
+
+![spotify](/app/icon.png)
+
+To change the icon of the tab/browser window to the Spotify logo as opposed to the Next.js default.
+
 ## Editing routes
 
 We can now shut down our `localhost` server and create a new folder in `app` called `(site)`. 
