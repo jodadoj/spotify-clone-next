@@ -1,6 +1,6 @@
 > **Note**
 >
-> The current site is live [here](https://jodadoj-spotify-clone-demo.netlify.app/).
+> The current site is live [here](https://jodadoj-spotify-clone-next.vercel.app/).
 
 # Creating a Spotify clone #
 
@@ -34,7 +34,7 @@ The original guide suggests using `npm` but I personally prefer `yarn` and so wi
 >
 >  When talking about the actions of the reader and/or myself, we'll take to the habit of using pural pronouns like "we" or "our" except in the case that "I" am taking personal responsibility.
 
-We use the command `yarn create next-app` with the argument `spotify-clone-next` and setting up with Typescript,ESLint,Tailwind and App Router enabled.
+We use the command `yarn create next-app` with the argument `spotify-clone-next` and setting up with Typescript, ESLint, Tailwind and App Router enabled.
 
 ![setup options](public/images/readme/001.png)
 
