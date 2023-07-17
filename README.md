@@ -10,21 +10,21 @@ The source of this project comes from [Code with Antonio's](https://www.youtube.
 
 ### [Getting Started](#getting-started)
 
-### [Default Project](#default-project)
+### [1. Default Project](#default-project)
 
-### [Changing Basic Layout](#changing-basic-layout)
+### [2. Changing Basic Layout](#changing-basic-layout)
 
-### [Editing Routes](#editing-routes)
+### [3. Editing Routes](#editing-routes)
 
-### [Adding Sidebar Details](#adding-sidebar-details)
+### [4. Adding Sidebar Details](#adding-sidebar-details)
 
-### [Adding a Song Library](#adding-a-song-library)
+### [5. Adding a Song Library](#adding-a-song-library)
 
-### [Adding a Header](#adding-a-header)
+### [6. Adding a Header](#adding-a-header)
 
-### [Adding own our Custom Button](#adding-our-own-custom-button)
+### [7. Adding Our Own Custom Button](#adding-our-own-custom-button)
 
-### [Populating the Page](#populating-the-page)
+### [8. Populating the Page](#populating-the-page)
 
 ## Getting Started 
 
